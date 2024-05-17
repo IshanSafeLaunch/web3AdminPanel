@@ -1,4 +1,5 @@
 import React from 'react'
+import UploadForm from './Uploadform';
 
 const Head = ({accounts}) => {
     const account=accounts;
@@ -6,6 +7,7 @@ const Head = ({accounts}) => {
   return (
     <div>
         <h1>Connected Account -{account}</h1>
+        {/* <UploadForm accounts={accounts} /> */}
     </div>
   )
 }
