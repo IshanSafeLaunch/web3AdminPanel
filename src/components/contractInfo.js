@@ -1,4 +1,5 @@
-{"abi" : [
+// contractInfo.js
+export const abi = [
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
@@ -830,4 +831,6 @@
 		"type": "function"
 	}
 ]
-}
+  
+export const contractAddress = '0xD7F8C11Fa9B3C7305A1d55cC60e8A7E985b1b9E6'; // Replace with your contract address
+  
